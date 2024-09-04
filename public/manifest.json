@@ -1,21 +1,32 @@
 {
-  "name": "My Astro Game",
-  "short_name": "AstroGame",
-  "description": "An interactive web game built with Astro.",
+  "name": "GearFest 2024",
+  "short_name": "GearFest",
+  "description": "An interactive web game.",
   "icons": [
     {
-      "src": "/icons/icon-192x192.png",
-      "sizes": "192x192",
-      "type": "image/png"
+      "src": "android/android-launchericon-512-512.png",
+      "sizes": "512x512"
     },
     {
-      "src": "/icons/icon-512x512.png",
-      "sizes": "512x512",
-      "type": "image/png"
+      "src": "android/android-launchericon-192-192.png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "android/android-launchericon-144-144.png",
+      "sizes": "144x144"
+    },
+
+    {
+      "src": "android/android-launchericon-48-48.png",
+      "sizes": "48x48"
+    },
+    {
+      "src": "ios/16.png",
+      "sizes": "16x16"
     }
   ],
   "start_url": "/",
-  "display": "standalone",
+  "display": "fullscreen",
   "theme_color": "#ffffff",
   "background_color": "#ffffff"
 }

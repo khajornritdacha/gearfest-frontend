@@ -46,6 +46,8 @@
     "@types/howler": "2.2.11",
     "@typescript-eslint/eslint-plugin": "^6.20.0",
     "@typescript-eslint/parser": "^6.20.0",
+    "@vite-pwa/assets-generator": "0.2.5",
+    "@vite-pwa/astro": "0.4.1",
     "eslint": "^8.56.0",
     "eslint-plugin-astro": "^0.31.3",
     "prettier": "^3.2.4",
