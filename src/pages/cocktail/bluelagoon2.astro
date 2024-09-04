@@ -1,0 +1,16 @@
+---
+import { Image } from "astro:assets";
+import BlueLagoon from "@/assets/cocktail/BlueLagoon.png";
+import BaseLayout from "@/layouts/BaseLayout.astro";
+---
+
+<BaseLayout>
+  <div
+    id="result"
+    class:list={[
+      "relative flex w-full flex-col items-center justify-center gap-4 overflow-hidden bg-cover bg-repeat pb-16",
+    ]}
+  >
+    <Image src={BlueLagoon} alt="BlueLagoon" />
+  </div>
+</BaseLayout>
